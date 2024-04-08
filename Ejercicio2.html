@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Tabla</title>
+</head>
+<body>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="apellido" placeholder="Apellido">
+    <input type="text" id="edad" placeholder="Edad">
+    <input type="text" id="ciudad" placeholder="Ciudad">
+
+    <button onclick="creaUsuario()">Confirmar</button>
+
+    <table border="2px">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
+        <tbody id="tabla">
+            
+        </tbody>
+        
+    </table>  
+
+    
+    <br>
+    Suma: <span id="suma"></span><br>
+    Media: <span id="media"></span><br>
+    Maximo: <span id="maximo"></span><br>
+    Minimo: <span id="minimo"></span>
+    <script src="Ejercicio2.js"></script>
+</body>
+</html>
